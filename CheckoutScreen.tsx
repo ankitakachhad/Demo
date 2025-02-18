@@ -11,7 +11,7 @@ const CheckoutScreen = () => {
   const {navigation,createRazorPayOrder} = useCheckoutHook();
   useLayoutEffect(() => {
     navigation.setOptions({
-      title: `Checkout`,
+      title: `Checkout Test`,
       headerStyle: {
         backgroundColor: Colors.primary,
       },
